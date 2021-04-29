@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import EditorType from 'ckeditor5-custom-build/build/ckeditor';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import MyCustomUploadAdapterPlugin from './MyCustomUploadAdapterPlugin';
-import './ckEditor.css'
+// import './ckEditor.css'
 // console.log(EditorType.builtinPlugins.map(plugin => plugin.pluginName), "vcl");
 
 // convert data to '/n'

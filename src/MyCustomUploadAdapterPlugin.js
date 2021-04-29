@@ -1,4 +1,4 @@
-import { updateLoadMediaByCourse } from "services/mediaService";
+import { updateLoadMediaByCourse } from "./mediaService";
 
 export default function MyCustomUploadAdapterPlugin(editor) {
     editor.plugins.get('FileRepository').createUploadAdapter = (loader) => {
